@@ -1,0 +1,32 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Whats up","Hey","greetings"],
+         "responses": ["Hey, I am your virtual assistant! What can i do for you?", "Good to see you again, What can i do for you??", "Im your VA, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","Takecare","See you around"],
+         "responses": ["See you later, cheers!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "stocks",
+         "patterns": ["What are my stock doing?", "How are my finances?", "How are my investments?","Show me my stocks","Show me my investments","How are my stocks doing"],
+         "responses": ["Showing Investments"],
+	 "context_set": ""
+        },
+        {"tag": "todoshow",
+         "patterns": ["Show me my todo list", "What is on my todo List", "Show me my todos" ],
+         "responses": ["Showing Todo List"],
+	 "context_set": ""
+        },
+        {"tag": "todoadd",
+         "patterns": ["Add something to my todo list", "Add an item to my todo list", "I want to add something to my todo list"],
+         "responses": ["Adding to Todo List"],
+	 "context_set": ""
+        },
+	{"tag": "todoremove",
+         "patterns": ["Remove something to my todo list", "Remove an item to my todo list", "I want to remove something to my todo list"],
+         "responses": ["Removing from Todo List"],
+	 "context_set": ""
+        }
+   ]
+}
